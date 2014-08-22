@@ -1,0 +1,13 @@
+@media all{
+	#statusbar{
+		padding-left: 315px;
+		width: 840px;
+	}
+	.panelstatusbar{
+		height: 26px;
+		width: 346px;
+		vertical-align: middle;
+		background-image: url(image/general/statusbar/bg.png);
+		background-repeat: repeat;
+	}
+}

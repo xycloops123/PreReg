@@ -1,0 +1,133 @@
+@media all{
+	body{
+		background:#ffffff;
+		width:100%;
+		margin: 0;
+	}
+	header{
+		height: 65px;
+		background: #ffcc33;
+	}
+	section{
+		height: 610px;
+		background-position: 0 65px;
+		background-repeat: no-repeat;
+		background-image: url(image/mainpanels/Panel_0/bg0_01.png);
+		overflow: hidden;
+	}
+	footer{
+		height:65px;
+		background: #ffffff;
+	}
+	.center {
+ 	   	margin: 0 auto;
+    	width: 1024px;
+	}
+	.heading{
+		padding-top: 10px;
+		padding-left: 92px;
+		font-family: 'PT Sans';
+		font-size: 24px;
+		font-weight: bold;
+		color: #ffffff;
+	}
+	.content{
+    	font-family: 'PT Sans';
+		font-size: 11px;
+		color: #8697a6;
+	}
+	.aacexpress{
+		padding-top: 42px;
+		padding-left: 33px;
+		position: absolute;
+		float: left;
+		z-index: 130;
+	}
+	.aacstand{
+		padding-top: 78px;
+		padding-left: 92px;
+		position: absolute;
+		float: left;
+		z-index: 90;	
+	}
+	.aacbus{
+		padding-left: 385px;
+		padding-top: 275px;
+		position: absolute;
+		overflow: hidden;
+		float: left;
+		z-index: 90;
+	}
+	.loginform{
+		width: 230px;
+		padding-top: 255px;
+		padding-left: 125px;
+		position: absolute;
+		z-index: 120;		
+	}
+	.loginform td{
+		font-family: 'Open Sans';
+		font-size: 13px;
+		color: #465461;
+		height: 60px;
+	}
+	.loginform input{
+		width: 230px;
+		height: 35px;
+	}
+	.loginform input[placeholder], [placeholder], *[placeholder] {
+   		font-family: 'Open Sans';
+		font-size: 13px;
+		color: #9098a0;
+		padding-left: 5px;
+		
+	}
+	.ian{
+		padding-top: 182px;
+		padding-left: 440px;
+		position: absolute;
+		float: left;
+		z-index: 110;
+	}
+	.jaqline{
+		padding-top: 182px;
+		padding-left: 705px;
+		position: absolute;
+		float: left;
+		z-index: 110;
+	}
+	.ianmsg{
+		padding-top: 70px;
+		padding-left: 460px;
+		position: absolute;
+		float: left;
+		z-index: 110;
+	}
+	.jaqlinemsg{
+		padding-top: 100px;
+		padding-left: 745px;
+		position: absolute;
+		float: left;
+		z-index: 110;
+	}
+	#loginbtn{
+		background: url('image/general/buttons/login.jpg') no-repeat top left;
+		z-index: 100;
+	}
+	
+	.copyright{
+		position: relative;
+	}
+	.copyrighttext{
+		padding-top: 35px;
+		font-family: 'PT Sans';
+		font-size: 11px;
+		color: #8697a6;
+		text-align: center;
+	}
+	.nyulogo{
+		position: relative;
+		float: right;
+		padding-right: 92px;
+	}
+}
